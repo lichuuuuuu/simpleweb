@@ -36,4 +36,4 @@ def show_numbers():
 
     return template('template.html', numbers=latest_numbers, latest_date=latest_date, congestion_level=congestion_level, congestion_levels=congestion_levels)
 
-run(host="local.host", port=8080, debug=True)
+run(host="localhost", port=8080, debug=True)
